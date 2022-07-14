@@ -31,4 +31,4 @@ The link to the deployed website of the assignment is <br>
 
 This image provides a sample of the completed website.
 
-![Work Day Scheduler](./assets/Images/work-day-scheduler.jpg)
+![Work Day Scheduler](./assets/Images/weather-dashboard.jpg)
