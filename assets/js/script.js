@@ -40,7 +40,7 @@ var init = function (){
   function submitSearch(event) {
     event.preventDefault();
     //get user input
-    cityName = $( "#citySearch" ).val();
+    cityName = $( "#citySearch" ).val().trim();
     //if no input, then flag as such
     if(!cityName.length){
       //alert('No entry');
