@@ -1,0 +1,42 @@
+#siteHeader {
+    background-image: linear-gradient(to left, rgb(0, 0, 144) , blue);
+  }
+
+  #search-History {
+    display:  inline;
+  }
+
+  
+
+  #todayUV_value {
+    display: inline;
+    font-size: 13px;
+    vertical-align: middle;
+  }
+
+  .uv_low {
+    color: white;
+    background-color: green;
+    font-weight: bold;
+  }
+
+  .uv_medium {
+    color: white;
+    background-color: orange;
+    font-weight: bold;
+  }
+
+  .uv_high {
+    color: white;
+    background-color: red;
+    font-weight: bold;
+  }
+
+  .success {
+    color: white;
+    background-color: green;
+  }
+
+  #todayUV {
+    display: inline;
+  }
