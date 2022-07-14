@@ -75,7 +75,7 @@ var buttonClickHistory = function (event) {
 
 var getCityLocation = function (name) {
   var appID = '84e2a935f8a48c606fa12412a6f8a2d6';
-  var apiUrl = 'http://api.openweathermap.org/geo/1.0/direct?q=' + name + '&appid='+appID;
+  var apiUrl = 'https://api.openweathermap.org/geo/1.0/direct?q=' + name + '&appid='+appID;
   
   //get city lat long from name
   fetch(apiUrl)
