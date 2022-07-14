@@ -150,7 +150,7 @@ var processWeather = function (weatherArr5day){
   forcastList.empty();
 
   //update page with todays forcast in jumbotron
-  todayCityItm.innerHTML = cityName + ' ' + todayForcast.date + ' <div id="icon" style="display: inline"><img id="wicon" src="http://openweathermap.org/img/w/' + todayForcast.icon + '.png" alt="Weather icon"></div>';
+  todayCityItm.innerHTML = cityName + ' ' + todayForcast.date + ' <div id="icon" style="display: inline"><img id="wicon" src="https://openweathermap.org/img/w/' + todayForcast.icon + '.png" alt="Weather icon"></div>';
   todayTempItm.textContent = 'Temp: ' + todayForcast.temp + '°C';
   todayWindItm.textContent = 'Wind: ' + todayForcast.wind + ' KPH';
   todayHumidityItm.textContent = 'Humidity: ' + todayForcast.humidity + ' %';
@@ -173,7 +173,7 @@ var processWeather = function (weatherArr5day){
 
     //sets up the text to add to each card
     var printDate = weatherArr5day[i].date;
-    var printIcon = '<div id="icon"><img id="wicon" src="http://openweathermap.org/img/w/' + weatherArr5day[i].icon + '.png" alt="Weather icon"></div>';
+    var printIcon = '<div id="icon"><img id="wicon" src="https://openweathermap.org/img/w/' + weatherArr5day[i].icon + '.png" alt="Weather icon"></div>';
     var printTemp = "Temp: " + weatherArr5day[i].temp+ '°C';
     var printWind = "Wind: " + weatherArr5day[i].wind + ' KPH';
     var printHumidity = "Humidity: " + weatherArr5day[i].humidity + ' %';
