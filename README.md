@@ -24,7 +24,7 @@ The weather dashboard has the following functions
 ## Link
 
 The link to the deployed website of the assignment is <br>
-[https://jkoufalas.github.io/Work-Day-Scheduler/index.html](https://jkoufalas.github.io/Work-Day-Scheduler/index.html)
+[https://jkoufalas.github.io/Weather-Dashboard/index.html](https://jkoufalas.github.io/Weather-Dashboard/index.html)
 
 ---
 ## Screenshot
